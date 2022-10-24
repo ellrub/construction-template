@@ -1,0 +1,24 @@
+* {
+  font-family: var(--font-base);
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+html {
+  background-color: var(--color-lightgray);
+
+}
+
+.app__flex {
+  display: flex;
+}
+
+.app__hide {
+  display: none;
+}
+
+.app__capitalize {
+  text-transform: capitalize;
+}
