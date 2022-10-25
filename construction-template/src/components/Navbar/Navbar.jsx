@@ -1,14 +1,17 @@
 import React, { useState } from "react";
-import {HiMenu, HiX} from "react-icons/hi";
-import {motion} from "framer-motion";
+import { HiMenu, HiX } from "react-icons/hi";
+import { motion } from "framer-motion";
 
 import "./Navbar.scss";
 
 const Navbar = () => {
-    const [toggle, setToggle] = useState(false)
+    const [toggle, setToggle] = useState(false);
 
     return (
-        <nav className="app__flex nav__menu">
+        <motion.nav 
+            whileInView={{y: [-80, 0], opacity: [0, 1]}}
+            transition={{duration: 0.85, ease: "easeOut"}}
+            className="app__flex nav__menu">
             <h2>Bergen & Omegn Entreprenør AS</h2>
             <ul className="app__flex app__capitalize app__hide">
                 {["hjem", "om oss", "prosjekter", "tjenester", "kontakt oss"].map((item) => (
@@ -17,13 +20,13 @@ const Navbar = () => {
                     </li>
                 ))}
             </ul>
-            <div className="app__hide nav__menu-m">
-                <HiMenu onClick={() => setToggle(true)} />
+            <div className="nav__menu-m">
+                <HiMenu onClick={() => setToggle(true)} className="app__menu-icon" />
                 
                 {toggle && (
                     <motion.div
-                    whileInView={{y: [-200, 0]}}
-                    transition={{duration: 0.85, ease: "easeOut"}}
+                    whileInView={{y: [-383, 0]}}
+                    transition={{duration: 0.5, ease: "easeOut"}}
                     >
                         <HiX onClick={() => setToggle(false)} />
                         <ul className="app__capitalize">
@@ -36,7 +39,7 @@ const Navbar = () => {
                     </motion.div>
                 )}
             </div>
-        </nav>
+        </motion.nav>
     )
 }
 

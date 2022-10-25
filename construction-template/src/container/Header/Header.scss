@@ -1,0 +1,74 @@
+header {
+    background-image:url("../../assets/excavator4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--color-bluegray);
+    background-blend-mode: multiply;
+
+    height: 87vh;
+
+    margin: 0;
+    padding: 1rem;
+
+    h3 {
+        text-transform: uppercase;
+        color: var(--color-orange);
+        text-shadow: 0 0 1px black;
+        letter-spacing: 0.05rem;
+
+        margin-top: 3rem;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+        text-transform: uppercase;
+        
+        color: var(--color-lightergray);
+        text-shadow: 0 0 2px black;
+        letter-spacing: 0.05rem;
+        line-height: 2rem;
+    }
+
+    p {
+        color: var(--color-lightergray);
+        text-shadow: 0 0 3px black;
+        font-size: 1.1rem;
+
+        margin-top: 1.5rem;
+    }
+
+    .header__buttons {
+        display: flex;
+        justify-content: space-around;
+
+        margin-top: 3rem;
+
+        button{
+            padding: 0.8rem 1.8rem;
+            
+            font-size: 1.2rem;
+            margin: 0 auto;
+
+            border: none;
+            border-radius: 6px;
+
+            cursor: pointer;
+
+            box-shadow: 0 2px 3px 0px black;
+        }
+
+        .about {
+            background-color: var(--color-bluegray);
+        }
+
+        .service {
+            background-color: var(--color-darkblue);
+            color: var(--color-lightergray);
+        }
+
+        .contact {
+            background-color: var(--color-orange);
+        }
+    }
+
+}

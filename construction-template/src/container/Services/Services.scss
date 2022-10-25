@@ -1,0 +1,21 @@
+.services__section {
+    background-image:url("../../assets/excavator2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(36, 33, 33);
+    background-blend-mode: multiply;
+
+    padding: 3rem 1rem;
+
+    height: 90vh;
+
+    h2 {
+        color: var(--color-orange);
+        text-shadow: 0 0 2px black;
+        letter-spacing: 0.05rem;
+        font-size: 1.8rem;
+
+        text-align: center;
+        margin: 0;
+    }
+}
