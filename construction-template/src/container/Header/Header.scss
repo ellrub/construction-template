@@ -43,7 +43,7 @@ header {
 
         margin-top: 3rem;
 
-        button{
+        a {
             padding: 0.8rem 1.8rem;
             
             font-size: 1.2rem;
@@ -55,10 +55,13 @@ header {
             cursor: pointer;
 
             box-shadow: 0 2px 3px 0px black;
+
+            text-decoration: none;
         }
 
         .about {
             background-color: var(--color-bluegray);
+            color: black;
         }
 
         .service {
@@ -68,6 +71,7 @@ header {
 
         .contact {
             background-color: var(--color-orange);
+            color: black;
         }
     }
 

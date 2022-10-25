@@ -5,7 +5,7 @@ import "./About.scss";
 
 function About() { 
     return (
-        <section className="about__section">
+        <section className="about__section" id="about">
             <motion.h2
                 whileInView={{opacity: [0, 1]}}
                 transition={{duration: 1.5, ease: "easeOut"}}

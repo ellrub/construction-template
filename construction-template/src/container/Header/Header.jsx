@@ -20,15 +20,15 @@ function Header() {
                 className="header__buttons"
                 whileInView={{opacity: [0, 1]}}
                 transition={{duration: 1.5, ease: "easeOut"}}>
-                <button className="about">Om Oss</button>
-                <button className="service">Tjenester</button>
+                <a className="about" href="#about">Om Oss</a>
+                <a className="service">Tjenester</a>
             </motion.div>
             <motion.div
             className="header__buttons"
             whileInView={{opacity: [0, 1]}}
             transition={{duration: 1.5, ease: "easeOut"}}
             >
-                <button className="contact">Kontakt Oss</button>
+                <a className="contact">Kontakt Oss</a>
             </motion.div>
         </header>
     )
