@@ -28,7 +28,7 @@ function Header() {
             whileInView={{opacity: [0, 1]}}
             transition={{duration: 1.5, ease: "easeOut"}}
             >
-                <a className="contact" href="#kontakt">Kontakt Oss</a>
+                <a className="contact" href="#kontakt oss">Kontakt Oss</a>
             </motion.div>
             <div id="om oss"></div>
         </header>

@@ -5,7 +5,7 @@ import "./Footer.scss"
 
 function Footer() {
     return (
-        <footer>
+        <footer id="kontakt oss">
             <h2>Kontakt Oss</h2>
             <h3>Bergen & Omeng Entreprenør AS</h3>
             <a href="tel: +47 987 65 432"><BsFillTelephoneFill /> +47 987 65 432</a><br/>
