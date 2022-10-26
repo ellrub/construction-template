@@ -8,13 +8,10 @@ const Navbar = () => {
     const [toggle, setToggle] = useState(false);
 
     return (
-        <motion.nav 
-            whileInView={{y: [-80, 0], opacity: [0, 1]}}
-            transition={{duration: 0.85, ease: "easeOut"}}
-            className="app__flex nav__menu">
+        <nav className="app__flex nav__menu">
             <h2>Bergen & Omegn Entreprenør AS</h2>
             <ul className="app__flex app__capitalize app__hide">
-                {["hjem", "om oss", "prosjekter", "tjenester", "kontakt oss"].map((item) => (
+                {["hjem", "om oss", "tjenester", "kontakt oss"].map((item) => (
                     <li key={`link-${item}`}>
                         <a href={`#${item}`}>{item}</a>
                     </li>
@@ -30,7 +27,7 @@ const Navbar = () => {
                     >
                         <HiX onClick={() => setToggle(false)} />
                         <ul className="app__capitalize">
-                            {["hjem", "om oss", "prosjekter", "tjenester", "kontakt oss"].map((item) => (
+                            {["hjem", "om oss", "tjenester", "kontakt oss"].map((item) => (
                                 <li key={item}>
                                     <a href={`#${item}`} onClick={() => setToggle(false)}>{item}</a>
                                 </li>
@@ -39,7 +36,7 @@ const Navbar = () => {
                     </motion.div>
                 )}
             </div>
-        </motion.nav>
+        </nav>
     )
 }
 

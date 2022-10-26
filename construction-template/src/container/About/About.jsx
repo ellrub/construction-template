@@ -5,7 +5,7 @@ import "./About.scss";
 
 function About() { 
     return (
-        <section className="about__section" id="about">
+        <section className="about__section" >
             <motion.h2
                 whileInView={{opacity: [0, 1]}}
                 transition={{duration: 1.5, ease: "easeOut"}}
@@ -21,6 +21,7 @@ function About() {
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
             officia deserunt mollit anim id est laborum. 
                 </motion.p>
+            <div id="tjenester"></div>
         </section>
     )
 
