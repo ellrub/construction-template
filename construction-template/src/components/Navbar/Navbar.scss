@@ -1,5 +1,5 @@
 .nav__menu {
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 
     background: rgba(0, 0, 0, 0.25);
@@ -9,19 +9,71 @@
     position: fixed;
     z-index: 4;
 
-    h2 {
-        text-align: center;
-        font-size: 1.6rem;
-        letter-spacing: 0.05rem;
-        font-weight: 600;
-        text-shadow: 1px 1px 3px var(--color-darkblue);
-        line-height: 2rem;
+    width: 100%;
+    padding: 0 0.5rem;
 
-        color: var(--color-lightgray);
+    .navbar__bar-container {
+        align-items: center;
+        justify-content: space-between;
 
-        padding: 1rem;
+        width: 100%;
+        max-width: 1400px;
+        margin: 0;
+        padding: 0;
+
+        h2 {
+            text-align: center;
+            font-size: 1.6rem;
+            letter-spacing: 0.05rem;
+            font-weight: 600;
+            text-shadow: 1px 1px 3px var(--color-darkblue);
+            line-height: 2rem;
+    
+            color: var(--color-lightgray);
+    
+            padding: 1rem;
+
+            @media screen and (min-width: 1920px) {
+                font-size: 2rem;
+                letter-spacing: 0.1rem;
+            }
+                    
+        }
+    
+        .nav__menu-d {
+    
+            li {
+                list-style: none;
                 
+                a {
+                    text-decoration: none;
+                    color: var(--color-lightgray);
+    
+                    font-size: 1.2rem;
+                    padding: 1rem;
+
+                    transition: all 0.3s ease-in-out;
+
+                    &:hover {
+                        color: var(--color-bluegray);
+                        text-decoration: underline;
+                        text-decoration-thickness: 0.1rem;
+                    }
+
+                    @media screen and (min-width: 1920px) {
+                        font-size: 1.5rem;
+                        letter-spacing: 0.05rem;
+                    }
+                }
+            }
+            
+    
+            @media screen and (min-width: 997px) {
+                display: flex;
+            }
+        }
     }
+
 
     .nav__menu-m {
         width: 50px;
@@ -102,7 +154,7 @@
             }
         }
 
-        @media screen and (min-width: 500px) {
+        @media screen and (min-width: 997px) {
             display: none;
         }
 
