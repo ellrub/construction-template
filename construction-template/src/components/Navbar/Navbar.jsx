@@ -9,14 +9,16 @@ const Navbar = () => {
 
     return (
         <nav className="app__flex nav__menu">
-            <h2>Bergen & Omegn Entreprenør AS</h2>
-            <ul className="app__flex app__capitalize app__hide">
-                {["hjem", "om oss", "tjenester", "kontakt oss"].map((item) => (
-                    <li key={`link-${item}`}>
-                        <a href={`#${item}`}>{item}</a>
-                    </li>
-                ))}
-            </ul>
+            <div className="app__flex navbar__bar-container">
+                <h2>Bergen & Omegn Entreprenør AS</h2>
+                <ul className="app__flex app__capitalize app__hide nav__menu-d">
+                    {["hjem", "om oss", "tjenester", "kontakt oss"].map((item) => (
+                        <li key={`link-${item}`} className="app__flex">
+                            <a href={`#${item}`}>{item}</a>
+                        </li>
+                    ))}
+                </ul>
+            </div>
             <div className="nav__menu-m">
                 <HiMenu onClick={() => setToggle(true)} className="app__menu-icon" />
                 
