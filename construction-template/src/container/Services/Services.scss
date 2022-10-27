@@ -7,30 +7,40 @@
 
     padding: 3rem 1rem;
 
-    height: 130vh;
-
     h2 {
         color: var(--color-orange);
-        text-shadow: 0 2px 2px black;
+        text-shadow: 0 0.2rem 0.2rem black;
         letter-spacing: 0.05rem;
         font-size: 1.8rem;
 
         text-align: center;
         margin: 0;
+
+        @media screen and (min-width: 997px) {
+            font-size: 2.5rem;
+            letter-spacing: 0.1rem;
+        }
     }
 
     .services__section--container {
+        display: flex;
+        flex-direction: column;
 
+        max-width: 1000px;
+        margin: 0 auto;
+        
         .services__section--card {
             width: 80%;
-            height: 30vh;
-            border-radius: 6px;
-    
-            background-color: var(--color-darkblue);
-
+            max-width: 280px;
+            height: 300px;
             margin: 2rem auto;
 
+            border-radius: 6px;
             box-shadow: 0 1px 1px 0 black;
+            background-color: var(--color-darkblue);
+
+            display: flex;
+            flex-direction: column;
 
             img {
                 width: 100%;
@@ -47,8 +57,13 @@
                 font-size: 1.3rem;
                 padding-top: 0.5rem;
                 text-shadow: 0 0 3px black;
+
+                margin-top: 1rem;
             }
         }
+        
+        @media screen and (min-width: 997px) {
+            flex-direction: row;
+        }
     }
-
 }

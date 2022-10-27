@@ -1,5 +1,5 @@
 header {
-    background-image:url("../../assets/excavator4.jpg");
+    background-image:url("../../assets/excavator.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-color: var(--color-bluegray);
@@ -11,69 +11,126 @@ header {
     padding: 1rem;
     padding-top: 5rem;
 
-    h3 {
-        text-transform: uppercase;
-        color: var(--color-orange);
-        text-shadow: 0 0 1px black;
-        letter-spacing: 0.05rem;
+    .header__container {
 
-        margin-top: 3rem;
-    }
+        max-width: 1400px;
+        margin: 0 auto;
 
-    h2 {
-        font-size: 1.7rem;
-        text-transform: uppercase;
-        
-        color: var(--color-lightergray);
-        text-shadow: 0 0 2px black;
-        letter-spacing: 0.05rem;
-        line-height: 2rem;
-    }
-
-    p {
-        color: var(--color-lightergray);
-        text-shadow: 0 0 3px black;
-        font-size: 1.1rem;
-
-        margin-top: 1.5rem;
-    }
-
-    .header__buttons {
-        display: flex;
-        justify-content: space-around;
-
-        margin-top: 3rem;
-
-        a {
-            padding: 0.8rem 1.8rem;
-            
-            font-size: 1.2rem;
+        .header__section {
+            max-width: 395px;
             margin: 0 auto;
+            padding: 1rem;
+    
+            h3 {
+                text-transform: uppercase;
+                color: var(--color-orange);
+                text-shadow: 0 0 0.2rem black;
+                letter-spacing: 0.05rem;
+        
+                margin-top: 3rem;
+                
+                @media screen and (min-width: 997px) {
+                    letter-spacing: 0.09rem;
+                    font-size: 1.8rem;
+                }
+            }
+        
+            h2 {
+                font-size: 1.7rem;
+                text-transform: uppercase;
+                
+                color: var(--color-lightergray);
+                text-shadow: 0 0 0.2rem black;
+                letter-spacing: 0.05rem;
+                line-height: 2rem;
 
-            border: none;
-            border-radius: 6px;
+                @media screen and (min-width: 997px) {
+                    font-size: 2.5rem;
+                    letter-spacing: 0.1rem;
+                    line-height: 2.5rem;
+                }
+            }
+        
+            p {
+                color: var(--color-lightergray);
+                text-shadow: 0 0 0.2rem black;
+                font-size: 1.1rem;
+        
+                margin-top: 1.5rem;
 
-            cursor: pointer;
-
-            box-shadow: 0 2px 3px 0px black;
-
-            text-decoration: none;
+                @media screen and (min-width: 997px) {
+                    font-size: 1.5rem;
+                    letter-spacing: 0.08rem;
+                    line-height: 1.6rem;
+                }
+            }
+    
+            @media screen and (min-width: 997px) {
+                margin: 0;
+                max-width: 520px;
+            }
         }
 
-        .about {
-            background-color: var(--color-bluegray);
-            color: black;
-        }
+        .header__button-container {
+            
 
-        .service {
-            background-color: var(--color-darkblue);
-            color: var(--color-lightergray);
-        }
+            .header__buttons {
+                display: flex;
+                justify-content: space-around;
+        
+                margin: 0 auto;
+                margin-top: 1rem;
+                max-width: 310px;
+                
+                a {
+                    font-size: 1.2rem;
 
-        .contact {
-            background-color: var(--color-orange);
-            color: black;
+                    padding: 0.8rem 1.8rem;
+                    margin: 0 auto;
+        
+                    border: none;
+                    border-radius: 6px;
+                    box-shadow: 0 0.08rem 0.3rem 0px black;
+        
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+        
+                .about {
+                    background-color: var(--color-bluegray);
+                    color: black;
+
+                    @media screen and (min-width: 997px) {
+                        margin-right: 1rem;
+                        margin-left: 0.5rem;
+                    }
+                }
+        
+                .service {
+                    background-color: var(--color-darkblue);
+                    color: var(--color-lightergray);
+                }
+        
+                .contact {
+                    background-color: var(--color-orange);
+                    color: black;
+                }
+
+                @media screen and (min-width: 997px) {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+
+                    margin: 0.5rem;
+                }
+            }
+
+            @media screen and (min-width: 997px) {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+            }
+            
         }
     }
-
 }
