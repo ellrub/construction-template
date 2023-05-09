@@ -30,8 +30,13 @@
             line-height: 2rem;
     
             color: var(--color-lightgray);
-    
+            
             padding: 1rem;
+
+            a {
+                text-decoration: none;
+                color: var(--color-lightgray);
+            }
 
             @media screen and (min-width: 1920px) {
                 font-size: 2rem;
