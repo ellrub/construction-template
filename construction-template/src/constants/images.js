@@ -10,6 +10,7 @@ import truck_exca_crane_small from '../assets/truck_exca_crane_small.jpg';
 import truck_exca_rig from '../assets/truck_exca_rig.jpg';
 import truck_exca_rig2 from '../assets/truck_exca_rig2.jpg';
 import truck_exca_rig3 from '../assets/truck_exca_rig3.jpg';
+import truck_exca_rig3_crop from '../assets/truck_exca_rig3_crop.jpg';
 import work_site from '../assets/work_site.jpg';
 import yellow_exca from '../assets/yellow_exca.jpg';
 import asphalt from '../assets/asphalt.jpg';
@@ -28,6 +29,7 @@ export default {
     truck_exca_rig,
     truck_exca_rig2,
     truck_exca_rig3,
+    truck_exca_rig3_crop,
     work_site,
     yellow_exca,
     asphalt
