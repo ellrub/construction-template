@@ -7,7 +7,7 @@ function Footer() {
     return (
         <footer id="kontakt oss">
             <h2>Kontakt Oss</h2>
-            <h3>Bergen & Omeng Entreprenør AS</h3>
+            <h3>Bergen & Omegn Entreprenør AS</h3>
             <div className="footer__contacts--container">
                 <div className="footer__contacts--card">
                     <p>Vidar Tveit ( Daglig leder )</p>
