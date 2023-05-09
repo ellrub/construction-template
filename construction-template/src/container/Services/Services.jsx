@@ -19,7 +19,8 @@ function Services() {
                     transition={{duration: 1.5, ease: "easeOut"}}
                 >
                     <img src={images.demolition} alt="Grunn som blir sprengt med sprengstoff" />
-                    <p>Sprenging</p>
+                    <p>Grøftearbeid</p>
+                    <p className="card__extra--info">Vann/avløp, drenering, kabelgrøfter</p>
                 </motion.div>
                 <motion.div 
                     className="services__section--card"
@@ -27,7 +28,7 @@ function Services() {
                     transition={{duration: 1.5, ease: "easeOut"}}
                 >
                     <img src={images.excavation} alt="Gravemaskin" />
-                    <p>Graving</p>
+                    <p>Sprengningsarbeid</p>
                 </motion.div>
                 <motion.div 
                     className="services__section--card"
@@ -35,7 +36,23 @@ function Services() {
                     transition={{duration: 1.5, ease: "easeOut"}}
                 >
                     <img src={images.truck} alt="Lastebil" />
-                    <p>Transport</p>
+                    <p>Grunn og betongarbeid</p>
+                </motion.div>
+                <motion.div 
+                    className="services__section--card"
+                    whileInView={{opacity: [0, 1]}}
+                    transition={{duration: 1.5, ease: "easeOut"}}
+                >
+                    <img src={images.truck} alt="Lastebil" />
+                    <p>Asfaltering</p>
+                </motion.div>
+                <motion.div 
+                    className="services__section--card"
+                    whileInView={{opacity: [0, 1]}}
+                    transition={{duration: 1.5, ease: "easeOut"}}
+                >
+                    <img src={images.truck} alt="Lastebil" />
+                    <p>Kranearbeid</p>
                 </motion.div>
             </div>
         </section>

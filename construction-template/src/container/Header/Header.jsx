@@ -12,8 +12,8 @@ function Header() {
                     whileInView={{opacity: [0, 1]}}
                     transition={{duration: 1.5, ease: "easeOut"}}
                     >
-                    <h3>17 års erfaring</h3>
-                    <h2>Graving, sprenging eller transport? vi tar jobben</h2>
+                    <h3>18 års erfaring</h3>
+                    <h2>Graving, sprenging, eller transport? vi tar jobben</h2>
                     <p>
                         En erfaren entreprenør som utfører tjenester i Bergen og omeng. 
                         Kontakt oss i dag for et uforpliktende tilbud.

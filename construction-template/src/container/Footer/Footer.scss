@@ -5,8 +5,8 @@ footer {
     text-align: center;
 
     padding: 3rem 1rem;
-    
-    
+
+
     h2 {
         font-weight: 400;
         text-shadow: 0 0.2rem 0.2rem black;
@@ -32,7 +32,39 @@ footer {
         }
     }
 
-    a {
+    .footer__contacts--container {
+        display: flex;
+        justify-content: center;
+
+        @media screen and (max-width: 552px) {
+            flex-direction: column;
+            padding-left: 45px;
+        }
+
+        .footer__contacts--card {
+            margin: 1rem;
+            text-align: left;
+
+            a,
+            p {
+                font-weight: 400;
+                text-shadow: 0 0.2rem 0.2rem black;
+                margin: 0.5rem;
+
+                color: var(--color-lightergray);
+                text-decoration: none;
+                letter-spacing: 0.05rem;
+
+                @media screen and (min-width: 997px) {
+                    font-size: 1.4rem;
+                    letter-spacing: 0.08rem;
+                }
+            }
+        }
+    }
+
+    a,
+    p {
         font-weight: 400;
         text-shadow: 0 0.2rem 0.2rem black;
         margin: 0.5rem;
@@ -46,4 +78,5 @@ footer {
             letter-spacing: 0.08rem;
         }
     }
+
 }
