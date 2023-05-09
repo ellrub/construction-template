@@ -1,5 +1,5 @@
 header {
-    background-image:url("../../assets/excavator.jpg");
+    background-image:url("../../assets/truck_exca_crane.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-color: var(--color-bluegray);
@@ -10,6 +10,10 @@ header {
     margin: 0;
     padding: 1rem;
     padding-top: 5rem;
+
+    @media screen and (max-width: 750px) {
+        background-image: url("../../assets/truck_exca_crane_small.jpg");
+    }
 
     .header__container {
 

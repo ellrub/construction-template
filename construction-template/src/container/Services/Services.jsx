@@ -18,7 +18,7 @@ function Services() {
                     whileInView={{opacity: [0, 1]}}
                     transition={{duration: 1.5, ease: "easeOut"}}
                 >
-                    <img src={images.demolition} alt="Grunn som blir sprengt med sprengstoff" />
+                    <img src={images.yellow_exca} alt="Gravemaskin" />
                     <p>Grøftearbeid</p>
                     <p className="card__extra--info">Vann/avløp, drenering, kabelgrøfter</p>
                 </motion.div>
@@ -27,7 +27,7 @@ function Services() {
                     whileInView={{opacity: [0, 1]}}
                     transition={{duration: 1.5, ease: "easeOut"}}
                 >
-                    <img src={images.excavation} alt="Gravemaskin" />
+                    <img src={images.demolition} alt="Grunn som blir sprengt med sprengstoff" />
                     <p>Sprengningsarbeid</p>
                 </motion.div>
                 <motion.div 
@@ -35,7 +35,7 @@ function Services() {
                     whileInView={{opacity: [0, 1]}}
                     transition={{duration: 1.5, ease: "easeOut"}}
                 >
-                    <img src={images.truck} alt="Lastebil" />
+                    <img src={images.work_site} alt="Lastebil" />
                     <p>Grunn og betongarbeid</p>
                 </motion.div>
                 <motion.div 
@@ -43,7 +43,7 @@ function Services() {
                     whileInView={{opacity: [0, 1]}}
                     transition={{duration: 1.5, ease: "easeOut"}}
                 >
-                    <img src={images.truck} alt="Lastebil" />
+                    <img src={images.asphalt} alt="Lastebil" />
                     <p>Asfaltering</p>
                 </motion.div>
                 <motion.div 
@@ -51,7 +51,7 @@ function Services() {
                     whileInView={{opacity: [0, 1]}}
                     transition={{duration: 1.5, ease: "easeOut"}}
                 >
-                    <img src={images.truck} alt="Lastebil" />
+                    <img src={images.crane_small} alt="Lastebil" />
                     <p>Kranearbeid</p>
                 </motion.div>
             </div>
