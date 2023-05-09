@@ -13,7 +13,7 @@ function Header() {
                     transition={{duration: 1.5, ease: "easeOut"}}
                     >
                     <h3>18 års erfaring</h3>
-                    <h2>Graving, sprenging, eller transport? vi tar jobben</h2>
+                    <h2>Graving, sprenging, eller transport? vi tar jobben.</h2>
                     <p>
                         En erfaren entreprenør som utfører tjenester i Bergen og omegn. 
                         Kontakt oss i dag for et uforpliktende tilbud.
