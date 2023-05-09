@@ -6,6 +6,7 @@ import green_exca from '../assets/green_exca.jpg';
 import green_exca2 from '../assets/green_exca2.jpg';
 import orange_exca from '../assets/orange_exca.jpg';
 import truck_exca_crane from '../assets/truck_exca_crane.jpg';
+import truck_exca_crane_crop from '../assets/truck_exca_crane_crop.jpg';
 import truck_exca_crane_small from '../assets/truck_exca_crane_small.jpg';
 import truck_exca_rig from '../assets/truck_exca_rig.jpg';
 import truck_exca_rig2 from '../assets/truck_exca_rig2.jpg';
@@ -25,6 +26,7 @@ export default {
     green_exca2,
     orange_exca,
     truck_exca_crane,
+    truck_exca_crane_crop,
     truck_exca_crane_small,
     truck_exca_rig,
     truck_exca_rig2,
