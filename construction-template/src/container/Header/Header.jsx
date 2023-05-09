@@ -15,7 +15,7 @@ function Header() {
                     <h3>18 års erfaring</h3>
                     <h2>Graving, sprenging, eller transport? vi tar jobben.</h2>
                     <p>
-                        En erfaren entreprenør som utfører tjenester i Bergen og omegn. 
+                        En erfaren entreprenør som utfører tjenester i Bergen og omeng. 
                         Kontakt oss i dag for et uforpliktende tilbud.
                     </p>
                 </motion.div>
